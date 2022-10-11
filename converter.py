@@ -12,7 +12,7 @@ file.write("headers = {\n")
 for i in range(x):
     xx = input()
     nk = xx.split(":")[0]
-    bk2 = xx.split(":")[-1]
+    bk2 = xx.split(":")[1]
     first = f"'{nk}'"
     last = f"'{bk2}'"
     if i+1 == x:
